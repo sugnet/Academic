@@ -1,0 +1,31 @@
+---
+title: "Initial Surname"
+comments: false
+image: profile.png
+about:
+  id: hero-heading
+  template: jolla
+  image: profile.png
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: envelope
+      href: mailto:surname@web.ac.za
+    - icon: github
+      href: https://github.com/
+    - text: scholar
+      href: https://scholar.google.com/
+    - text: orcid
+      href: https://orcid.org/
+    - icon: linkedin
+      href: https://www.linkedin.com/
+---
+
+::: {#hero-heading}
+
+Initial Surname is from the well-known establishment of the University of Academia in the land of Statistics.
+
+Initial has served on various committees.
+
+Initial is an expert in websites in Quarto.
+:::

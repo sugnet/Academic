@@ -1,0 +1,77 @@
+/*-- scss:defaults --*/
+$bs-purple_mdag: #3b4569 !default;
+$bs-pagination-active-bg: $bs-purple_mdag !default;
+$bs-primary: $bs-purple_mdag !default;
+$bs-btn-hover-bg: $bs-purple_mdag !default;
+$fa-font-path: '../webfonts';
+
+/*-- scss:rules --*/
+
+.navbar {
+  background-color: $bs-purple_mdag;
+  color: #A76286;
+}
+
+.quarto-title-banner{
+  background-color: #fca7a5 ;
+  color: #A76286;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $bs-purple_mdag;
+    border-color: $bs-purple_mdag;
+}
+
+
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: $bs-purple_mdag;
+    border-color: $bs-purple_mdag;
+}
+
+.quarto-title-banner {
+    margin-bottom: 1em;
+    color: rgba(255,255,255,.7);
+    background: $bs-purple_mdag;
+}
+
+
+.page-link {
+      color: $bs-purple_mdag;
+}
+
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: $bs-purple_mdag;
+    border-color: $bs-purple_mdag;
+}
+
+a {
+  color: #C21E56;
+  text-decoration: none;
+}
+
+b, strong {
+    color: $bs-purple_mdag;
+    font-weight: bolder;
+}
+
+div.quarto-post .listing-categories .listing-category {
+    color: $bs-purple_mdag;
+    border: solid 1px var(--bs-gray-400);
+    font-size: .8em;
+}
+
+
+p pre code:not(.sourceCode), li pre code:not(.sourceCode), pre code:not(.sourceCode) {
+  background-color: #f0efff;
+}
+
+code {
+  color: #A76286;
+}

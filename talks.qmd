@@ -1,0 +1,32 @@
+---
+title: "Presentations"
+---
+
+## Conferences
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(gt)
+library(glue)
+library(lubridate)
+talks <- read_csv("talks.csv")
+talks <- talks |>
+  mutate(Date = dmy(Date)) |>
+  mutate(titlelink = ifelse(is.na(Link), Title, glue("[{Title}]({Link})"))) 
+talks |>
+  arrange(desc(Date)) |>
+  select(Date, titlelink, Event, Location, Details, Author) |>
+  gt() |>
+    gt::fmt_markdown(columns = titlelink) |>
+    cols_label(titlelink = "Title") |> 
+    gt::cols_width(
+      Date ~ px(100),
+      titlelink ~ px(400),
+      Location ~ px(250),
+      Details ~ px(100),
+      Author ~ px(100)) |>
+  cols_align("left")
+```

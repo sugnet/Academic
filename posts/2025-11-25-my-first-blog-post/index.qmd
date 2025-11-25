@@ -1,0 +1,32 @@
+---
+title: "My first blog post"
+author: "Name Surname"
+date: '2025-11-25'
+slug: my-first-blog-post
+categories:
+  - R
+  - Presentations in Quarto
+tags:
+  - R
+  - Presentations in Quarto
+---
+
+## Motivation
+
+Look at all the impressive skills I have acquired in the MDAG 2025 workshop.
+
+## About the example: Illustrating the classic iris data set with `biplotEZ`
+
+```{r}
+library(biplotEZ)
+bp <- biplot(iris,scale=TRUE) |> 
+  PCA(group.aes=iris$Species) |> 
+  axes(col="black") |> 
+  samples(col=c("pink","orange","firebrick3"),opacity = 0.7) |>
+  plot()
+```
+
+
+## Next
+
+Stay tuned for some new blog posts.

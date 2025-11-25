@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Date\nTitle\nEvent\nLocation\nDetails\nAuthor\n\n\n\n\n2025-11-25\nBest websites in Quarto\nSASA2025\nVanderbijlpark at the Riverside Sun Hotel\nContributed talk\nPresenting author"
+  },
+  {
+    "objectID": "talks.html#conferences",
+    "href": "talks.html#conferences",
+    "title": "Presentations",
+    "section": "",
+    "text": "Date\nTitle\nEvent\nLocation\nDetails\nAuthor\n\n\n\n\n2025-11-25\nBest websites in Quarto\nSASA2025\nVanderbijlpark at the Riverside Sun Hotel\nContributed talk\nPresenting author"
+  },
+  {
+    "objectID": "posts/2025-11-25-my-first-blog-post/index.html",
+    "href": "posts/2025-11-25-my-first-blog-post/index.html",
+    "title": "My first blog post",
+    "section": "",
+    "text": "Look at all the impressive skills I have acquired in the MDAG 2025 workshop."
+  },
+  {
+    "objectID": "posts/2025-11-25-my-first-blog-post/index.html#motivation",
+    "href": "posts/2025-11-25-my-first-blog-post/index.html#motivation",
+    "title": "My first blog post",
+    "section": "",
+    "text": "Look at all the impressive skills I have acquired in the MDAG 2025 workshop."
+  },
+  {
+    "objectID": "posts/2025-11-25-my-first-blog-post/index.html#about-the-example-illustrating-the-classic-iris-data-set-with-biplotez",
+    "href": "posts/2025-11-25-my-first-blog-post/index.html#about-the-example-illustrating-the-classic-iris-data-set-with-biplotez",
+    "title": "My first blog post",
+    "section": "About the example: Illustrating the classic iris data set with biplotEZ",
+    "text": "About the example: Illustrating the classic iris data set with biplotEZ\n\nlibrary(biplotEZ)\n\nWelcome to biplotEZ! \nThis package is used to construct biplots \nRun ?biplot or vignette() for more information\n\n\n\nAttaching package: 'biplotEZ'\n\n\nThe following object is masked from 'package:stats':\n\n    biplot\n\nbp &lt;- biplot(iris,scale=TRUE) |&gt; \n  PCA(group.aes=iris$Species) |&gt; \n  axes(col=\"black\") |&gt; \n  samples(col=c(\"pink\",\"orange\",\"firebrick3\"),opacity = 0.7) |&gt;\n  plot()"
+  },
+  {
+    "objectID": "posts/2025-11-25-my-first-blog-post/index.html#next",
+    "href": "posts/2025-11-25-my-first-blog-post/index.html#next",
+    "title": "My first blog post",
+    "section": "Next",
+    "text": "Next\nStay tuned for some new blog posts."
+  },
+  {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Year\nDegree\nInstitution\n\n\n\n\nXXX\nPhD\nUniversity, Country\n\n\nXXX\nMSc\nUniversity, Country\n\n\nXXX\nXXX\nUniversity, Country"
+  },
+  {
+    "objectID": "education.html#degrees",
+    "href": "education.html#degrees",
+    "title": "Education",
+    "section": "",
+    "text": "Year\nDegree\nInstitution\n\n\n\n\nXXX\nPhD\nUniversity, Country\n\n\nXXX\nMSc\nUniversity, Country\n\n\nXXX\nXXX\nUniversity, Country"
+  },
+  {
+    "objectID": "education.html#positions",
+    "href": "education.html#positions",
+    "title": "Education",
+    "section": "Positions",
+    "text": "Positions\n\n\n\n\n\n\n\n\nYear\nPosition\nInstitution\n\n\n\n\nXXX - current\nLevel\nInstitution\n\n\nXXX - XXX\nLevel\nInstitution"
+  },
+  {
+    "objectID": "education.html#awards",
+    "href": "education.html#awards",
+    "title": "Education",
+    "section": "Awards",
+    "text": "Awards\n\nRecipient of the MDAG best website award 2025."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Name Surname",
+    "section": "",
+    "text": "My first blog post\n\n\n\n\n\n\nR\n\n\nPresentations in Quarto\n\n\n\n\n\n\n\n\n\n25 November 2025\n\n\nName Surname\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Initial Surname",
+    "section": "",
+    "text": "Initial Surname is from the well-known establishment of the University of Academia in the land of Statistics.\nInitial has served on various committees.\nInitial is an expert in websites in Quarto.\n \n  \n   \n  \n    \n     \n  \n  \n    \n     \n  \n  \n     scholar\n  \n  \n     orcid"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "title\nyear\njournal\n\n\n\n\nBiplot visualisations of the differences between multiple imputation techniques for simulated categorical data\n2025\nDiscover Data\n\n\nOn subset multiple correspondence analysis for incomplete multivariate categorical data\n2024\nCommunications in Statistics - Simulation and Computation\n\n\nGPAbin: unifying visualizations of multiple imputations for missing values\n2023\nCommunications in Statistics - Simulation and Computation\n\n\nComments: Development of an early career academic supervisor in Statistics - a discussion on a guiding rubric\n2022\nORION\n\n\nGPAbin: unifying visualizations of multiple imputations for missing values\n2021\nCommunications in Statistics - Simulation and Computation\n\n\nGPAbin: unifying visualizations of multiple imputations for missing values\n2021\nCommunications in Statistics: Simulation and Computation\n\n\nA Simulation Study for the Identification of Missing Data Mechanisms Using Visualisation\n2021\nData Analysis and Rationality in a Complex World. IFCS 2019. Studies in Classification, Data Analysis, and Knowledge Organization\n\n\nA Simulation Study for the Identification of Missing Data Mechanisms Using Visualisation\n2021\nStudies in Classification, Data Analysis, and Knowledge Organization\n\n\nVisualising Incomplete Data with Subset Multiple Correspondence Analysis\n2018\nArchives of Data Science, Series A (Online First)\n\n\nInvestigating the Performance of a Variation of Multiple Correspondence Analysis for Multiple Imputation in Categorical Data Sets\n2017\nJournal of Classification\n\n\nInvestigating the Performance of a Variation of Multiple Correspondence Analysis for Multiple Imputation in Categorical Data Sets\n2017\nJournal of Classification\n\n\n\n\n\n\n\n\nThis list is automatically populated from orcid.org"
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "title\nyear\njournal\n\n\n\n\nBiplot visualisations of the differences between multiple imputation techniques for simulated categorical data\n2025\nDiscover Data\n\n\nOn subset multiple correspondence analysis for incomplete multivariate categorical data\n2024\nCommunications in Statistics - Simulation and Computation\n\n\nGPAbin: unifying visualizations of multiple imputations for missing values\n2023\nCommunications in Statistics - Simulation and Computation\n\n\nComments: Development of an early career academic supervisor in Statistics - a discussion on a guiding rubric\n2022\nORION\n\n\nGPAbin: unifying visualizations of multiple imputations for missing values\n2021\nCommunications in Statistics - Simulation and Computation\n\n\nGPAbin: unifying visualizations of multiple imputations for missing values\n2021\nCommunications in Statistics: Simulation and Computation\n\n\nA Simulation Study for the Identification of Missing Data Mechanisms Using Visualisation\n2021\nData Analysis and Rationality in a Complex World. IFCS 2019. Studies in Classification, Data Analysis, and Knowledge Organization\n\n\nA Simulation Study for the Identification of Missing Data Mechanisms Using Visualisation\n2021\nStudies in Classification, Data Analysis, and Knowledge Organization\n\n\nVisualising Incomplete Data with Subset Multiple Correspondence Analysis\n2018\nArchives of Data Science, Series A (Online First)\n\n\nInvestigating the Performance of a Variation of Multiple Correspondence Analysis for Multiple Imputation in Categorical Data Sets\n2017\nJournal of Classification\n\n\nInvestigating the Performance of a Variation of Multiple Correspondence Analysis for Multiple Imputation in Categorical Data Sets\n2017\nJournal of Classification\n\n\n\n\n\n\n\n\nThis list is automatically populated from orcid.org"
+  }
+]
