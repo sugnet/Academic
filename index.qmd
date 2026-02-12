@@ -1,11 +1,11 @@
 ---
-title: "Initial Surname"
+title: "Sugnet Lubbe"
 comments: false
-image: profile.png
+image: Sugnet.jpg
 about:
   id: hero-heading
   template: jolla
-  image: profile.png
+  image: Sugnet.jpg
   image-width: 15em
   image-shape: round
   links:
@@ -23,9 +23,5 @@ about:
 
 ::: {#hero-heading}
 
-Initial Surname is from the well-known establishment of the University of Academia in the land of Statistics.
 
-Initial has served on various committees.
-
-Initial is an expert in websites in Quarto.
 :::
