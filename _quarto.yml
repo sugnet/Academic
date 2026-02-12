@@ -4,29 +4,26 @@ project:
   resources: files
 
 website:
-  title: "Name Surname"
-  favicon: logo.png
-  #site-url: https://github.com/jnienk/jns-quarto
+  title: "Sugnet Lubbe"
+  favicon: Sugnet.jpg
+  #site-url: https://github.com/sugnet/academic
   navbar:
     background: primary
     search: true
     left:
       - text: Home
         href: index.qmd
-      - text: Education
-        href: education.qmd
-      - text: Talks
-        href: talks.qmd  
-      - text: Blog posts
-        href: blog.qmd
-      #- text: Publications
-      #  href: publications.qmd  
+      - text: Career
+        href: career.qmd
+      - text: Research
+        href: research.qmd  
+      - text: Teaching
+        href: teaching.qmd
+      - text: Recognition
+        href: recognition.qmd  
     right:
       - icon: github
         href: https://github.com/      
-
-body-footer: | 
-  Copyright:  Name Surname, 2025
 
 date-format: "D MMMM YYYY"
 
