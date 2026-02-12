@@ -6,7 +6,7 @@ project:
 website:
   title: "Sugnet Lubbe"
   favicon: Sugnet.jpg
-  #site-url: https://github.com/sugnet/academic
+  site-url: https://github.com/sugnet/academic
   navbar:
     background: primary
     search: true
