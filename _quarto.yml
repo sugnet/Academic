@@ -14,7 +14,7 @@ website:
       - text: Home
         href: index.qmd
       - text: Career
-        href: career.qmd
+        href: career.qmd      
       - text: Research
         href: research.qmd  
       - text: Teaching
@@ -30,7 +30,7 @@ date-format: "D MMMM YYYY"
 format:
   html:
     theme: 
-      - pulse
+      - lux
       - custom.scss
     toc: true
 

@@ -1,23 +1,72 @@
+
+# EDUCATION
+
+*12 December 1994*
+
+__BComm (Mathematics) cum laude__
+
+*Stellenbosch University, South Africa*
+
+<small>Major subjects: Mathematics and Mathematical statistics</small>
+
+--- 
+
+*11 December 1995*
+
+__Hons BComm (Mathematical statistics) cum laude__
+
+*Stellenbosch University, South Africa*
+
+<small>Study areas:  Multivariate Statistical Analysis, Multivariate Categorical Data Analysis, Stochastic Processes, Stochastic Simulation, Experimental Design, Econometrics, Quality Control, Statistical Consultation (included work in the Centre for Statistical Consultation)</small>
+
 ---
-title: "Education"
+
+*4 March 1997*
+
+__MComm (Mathematical statistics) cum laude__
+
+*Stellenbosch University, South Africa*
+
+<small>Study areas: Advanced Multivariate Statistical Analysis, Advanced Multivariate Categorical Data Analysis, Bootstrap, S-PLUS and Modern Applied Statistics
+
+Project: Estimating the detection probability of Psammobates geometricus: An empirical study</small>
+
 ---
 
-## Degrees
+*12 December 2001*
 
-| Year | Degree | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX | PhD | University, Country |
-| XXX | MSc  | University, Country |
-| XXX | XXX | University, Country |
+__PhD (Mathematical statistics)__
 
-## Positions
+*Stellenbosch University, South Africa*
 
-| Year | Position | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX - current | Level | Institution |
-| XXX - XXX | Level | Institution |
+<small>Extensions of biplot methodology to discriminant analysis with applications of non-parametric principal components</small>
+
+# INDUSTRY
+
+## British American Tobacco <br> 1996 - 2009
+
+__*May 1996 - February 1997:*__ Part time statistician, Stellenbosch
+
+__*March 1997 - August 2000:*__ Researcher statistician, Stellenbosch
+
+__*September 2000 - March 2001:*__ Marketing information manager, Stellenbosch
+
+__*April 2001 - April 2009:*__ Senior statistician, Stellenbosch & Southampton (UK)
+
+---
+
+# ACADEMIC
+
+## University of Cape Town <br> 2009 - 2016
+
+__*July 2009 - December 2016:*__ Associate Professor, Department of Statistical Sciences
+
+---
+
+## Stellenbosch University <br> 2017 -
+
+__*January 2017 - :*__ Professor, Department of Statistics and Actuarial Science
 
 
-## Awards
 
--   Recipient of the MDAG best website award 2025.
+

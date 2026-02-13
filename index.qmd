@@ -10,15 +10,15 @@ about:
   image-shape: round
   links:
     - icon: envelope
-      href: mailto:surname@web.ac.za
-    - icon: github
-      href: https://github.com/
-    - text: scholar
-      href: https://scholar.google.com/
+      href: mailto:slubbe@sun.ac.za
+  #  - icon: github
+  #    href: https://github.com/
+  #  - text: scholar
+  #    href: https://scholar.google.com/
     - text: orcid
-      href: https://orcid.org/
+      href: https://orcid.org/my-orcid?orcid=0000-0003-2762-9944
     - icon: linkedin
-      href: https://www.linkedin.com/
+      href: https://www.linkedin.com/in/sugnet-lubbe-79085028a/
 ---
 
 ::: {#hero-heading}

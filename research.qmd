@@ -1,23 +1,150 @@
+
+My field of research is focused in general on multivariate data analysis, and more specifically biplots and graphical visualisation of multi-dimensional data. My research is both on theoretical developments of methods for visualisation of multi-dimensional data, R software developed to implement methods and applications leading to new extensions of current methodology.
+ 
+After a 13-year stint in the corporate world, I moved to academia in July 2009 as associate professor at the University of Cape Town and in January 2017, I joined Stellenbosch University as professor in statistics. I am an elected member of the International Statistics Institute, served on the executive committees of the International Federation of Classification Societies and the International Association of Statistical Computing. I am also the chair of the Multivariate Data Analysis Special Interest Group in the South African Statistical Association.
+ 
+In July 2011 we formalised our research group into the Centre for Multi-dimensional Data Visualisation (MuViSU) located in the Department of Statistics and Actuarial Science at Stellenbosch University. As director of MuViSU I am proud to say we have a network of national and international members as well as post graduate students working on a variety of collaborative research projects.
+
 ---
-title: "Education"
----
-
-## Degrees
-
-| Year | Degree | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX | PhD | University, Country |
-| XXX | MSc  | University, Country |
-| XXX | XXX | University, Country |
-
-## Positions
-
-| Year | Position | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX - current | Level | Institution |
-| XXX - XXX | Level | Institution |
 
 
-## Awards
+# BOOKS
 
--   Recipient of the MDAG best website award 2025.
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(glue)
+library(lubridate)
+pubs <- read_csv("books.csv")
+pubs |>
+  mutate(titlelink = ifelse(is.na(Webpage), Title, glue("[{Title}]({Webpage})"))) |>
+  arrange(desc(Year), Authors) |>
+  select(Authors, Year, titlelink, Publisher) |>
+  gt() |>
+    fmt_markdown(columns = titlelink) |>
+    tab_options(table.font.size = px(12)) |>
+    cols_label(titlelink = "Title") |> 
+    cols_width(
+      Authors ~ pct(40),
+      Year ~ pct(10),
+      titlelink ~ pct(40),
+      Publisher ~ pct(10)) |>
+  cols_align("left") |>
+  tab_style(
+    style = cell_text(weight = "bold", style = "italic", color = "#BE3838"),
+    locations = cells_column_labels(everything())
+  )
+```
+
+
+# BOOK CHAPTERS
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(glue)
+library(lubridate)
+pubs <- read_csv("chapters.csv")
+pubs |>
+  mutate(titlelink = ifelse(is.na(Webpage), Title, glue("[{Title}]({Webpage})"))) |>
+  arrange(desc(Year), Authors) |>
+  select(Authors, Year, titlelink, Pages, Book, Editors, Publisher) |>
+  gt() |>
+    fmt_markdown(columns = titlelink) |>
+    tab_options(table.font.size = px(12)) |>
+    cols_label(titlelink = "Title") |> 
+    cols_width(
+      Authors ~ pct(25),
+      Year ~ pct(5),
+      titlelink ~ pct(25),
+      Pages ~ pct(5),
+      Book ~ pct(20),
+      Editors ~ pct(20),
+      Publisher ~ pct(5)) |>
+  cols_align("left") |>
+  tab_style(
+    style = cell_text(weight = "bold", style = "italic", color = "#BE3838"),
+    locations = cells_column_labels(everything())
+  )
+```
+
+
+# SCIENTIFIC JOURNALS
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(glue)
+library(lubridate)
+pubs <- read_csv("journals.csv", locale = locale(encoding = "Windows-1252"))
+pubs |>
+  mutate(Webpage = ifelse(is.na(DOI),NA,paste0("https://dx.doi.org/",DOI))) |>
+  mutate(titlelink = ifelse(is.na(Webpage), Title, glue("[{Title}]({Webpage})"))) |>
+  mutate(temp = ifelse(is.na(Vol),Journal,paste(Journal,Vol,sep=", ")),
+         Journal = ifelse(is.na(pages), temp, paste(temp,pages,sep=", "))) |>
+  arrange(desc(Year), Authors) |>
+  select(Authors, Year, titlelink, Journal) |>
+  gt() |>
+    fmt_markdown(columns = titlelink) |>
+    tab_options(table.font.size = px(12)) |>
+    cols_label(titlelink = "Title") |> 
+    cols_width(
+      Authors ~ pct(35),
+      Year ~ pct(5),
+      titlelink ~ pct(35),
+      Journal ~ pct(25)) |>
+  cols_align("left") |>
+  tab_style(
+    style = cell_text(weight = "bold", style = "italic", color = "#BE3838"),
+    locations = cells_column_labels(everything())
+  )
+```
+
+# CONFERENCE PROCEEDINGS
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(glue)
+library(lubridate)
+pubs <- read_csv("proceedings.csv")
+pubs |>
+  mutate(titlelink = ifelse(is.na(Webpage), Title, glue("[{Title}]({Webpage})"))) |>
+  mutate(Volume = ifelse(is.na(Pages),Volume,paste(Volume,Pages,sep=","))) |>
+  arrange(desc(Year), Authors) |>
+  select(Authors, Year, titlelink, Editors, Volume) |>
+  mutate (Editors = ifelse (is.na(Editors), "", Editors),
+          Volume = ifelse (is.na(Volume), "", Volume)) |>
+  gt() |>
+    fmt_markdown(columns = titlelink) |>
+    tab_options(table.font.size = px(12)) |>
+    cols_label(titlelink = "Title") |> 
+    cols_width(
+      Authors ~ pct(20),
+      Year ~ pct(5),
+      titlelink ~ pct(25),
+      Editors ~ pct(20),
+      Volume ~ pct(30)) |>
+  cols_align("left") |>
+  tab_style(
+    style = cell_text(weight = "bold", style = "italic", color = "#BE3838"),
+    locations = cells_column_labels(everything())
+  )
+```
+

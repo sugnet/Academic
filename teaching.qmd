@@ -1,23 +1,110 @@
 ---
-title: "Education"
+title: "Teaching"
 ---
 
-## Degrees
+## Undergraduate
 
-| Year | Degree | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX | PhD | University, Country |
-| XXX | MSc  | University, Country |
-| XXX | XXX | University, Country |
+Introductory statistics
 
-## Positions
+Introductory mathematical statistics
 
-| Year | Position | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX - current | Level | Institution |
-| XXX - XXX | Level | Institution |
+Applied multivariate statistics
+
+Data science - supervised and unsupervised learning
+
+Stochastic processes
+
+---
 
 
-## Awards
+## Postgraduate
 
--   Recipient of the MDAG best website award 2025.
+Honours: Design of Experiments
+
+Honours: Multivariate statistics
+
+Honours: R programming
+
+Masters: Multivariate statistics
+
+Masters: Multidimensional scaling
+
+Masters: Advanced Topics in Regression
+
+---
+
+
+## Cirriculum development
+
+Undergraduate: Data science - big data and deep learning
+
+Masters: Multivariate statistics
+
+Masters: Advanced Topics in Regression
+
+---
+
+
+## PhD students
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(glue)
+library(lubridate)
+stds <- read_csv("PhDs.csv")
+stds |>
+  mutate(Graduated = replace_na(as.character(Graduated), "")) |>
+  arrange(Graduated != "", desc(Graduated), Student) |>
+  select(Student, Degree, Role, `Thesis Title`, Graduated) |>
+  gt() |>
+    gt::cols_width(
+      Student ~ px(200),
+      Degree ~ px(80),
+      Role ~ px(100),
+      `Thesis Title` ~ px(200),
+      Graduated ~ px(50)) |>
+  cols_align("left") |>
+  cols_align(align = "right", columns = Graduated) |>
+  tab_style(
+    style = cell_text(weight = "bold", style = "italic", color = "#BE3838"),
+    locations = cells_column_labels(everything())
+  )
+```
+
+## Masters students
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(tidyr)
+library(gt)
+library(glue)
+library(lubridate)
+stds <- read_csv("Masters.csv")
+stds |>
+  mutate(Graduated = replace_na(as.character(Graduated), "")) |>
+  arrange(Graduated != "", desc(Graduated), Student) |>
+  select(Student, Degree, Role, `Thesis Title`, Graduated) |>
+  gt() |>
+    gt::cols_width(
+      Student ~ px(200),
+      Degree ~ px(80),
+      Role ~ px(100),
+      `Thesis Title` ~ px(200),
+      Graduated ~ px(50)) |>
+  cols_align("left") |>
+  cols_align(align = "right", columns = Graduated) |>
+  tab_style(
+    style = cell_text(weight = "bold", style = "italic", color = "#BE3838"),
+    locations = cells_column_labels(everything())
+  )
+```
+
+

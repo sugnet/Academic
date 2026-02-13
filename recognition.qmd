@@ -1,23 +1,18 @@
+
+__National Research Foundation of South Africa B2 rating__
+
+Researcher who enjoys considerable international recognition for the high quality and impact of their recent research outputs.
+
 ---
-title: "Education"
+
+__Kanji prize runner up__
+
+Best papter published in Journal of Applied Statistics, 2008.
+
 ---
 
-## Degrees
+__Elected member of the International Statistical Institute__
 
-| Year | Degree | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX | PhD | University, Country |
-| XXX | MSc  | University, Country |
-| XXX | XXX | University, Country |
-
-## Positions
-
-| Year | Position | Institution |
-|:-----------------------|:-----------------------|:-----------------------|
-| XXX - current | Level | Institution |
-| XXX - XXX | Level | Institution |
+Elected in 2004
 
 
-## Awards
-
--   Recipient of the MDAG best website award 2025.
