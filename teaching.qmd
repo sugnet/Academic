@@ -1,8 +1,8 @@
 ---
-title: "Teaching"
+title: "TEACHING"
 ---
 
-## Undergraduate
+## UNDERGRADUATE
 
 Introductory statistics
 
@@ -17,7 +17,7 @@ Stochastic processes
 ---
 
 
-## Postgraduate
+## POSTGRADUATE
 
 Honours: Design of Experiments
 
@@ -34,7 +34,7 @@ Masters: Advanced Topics in Regression
 ---
 
 
-## Cirriculum development
+## CIRRICULUM DEVELOPMENT
 
 Undergraduate: Data science - big data and deep learning
 
@@ -45,7 +45,7 @@ Masters: Advanced Topics in Regression
 ---
 
 
-## PhD students
+## PHD STUDENTS
 
 ```{r}
 #| echo: false
@@ -76,7 +76,7 @@ stds |>
   )
 ```
 
-## Masters students
+## MASTERS STUDENTS
 
 ```{r}
 #| echo: false
