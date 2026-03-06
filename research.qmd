@@ -150,15 +150,13 @@ pubs |>
 
 # SOFTWARE
 
-[BiplotGUI](https://cran.r-project.org/web/packages/BiplotGUI/index.html), CRAN. 
+[BiplotGUI](https://cran.r-project.org/web/packages/BiplotGUI/index.html).
 
-MDSGUI. https://cran.r-project.org/web/packages/MDSGUI/index.html
+[MDSGUI](https://cran.r-project.org/web/packages/MDSGUI/index.html).
 
-PLSbiplot1. https://cran.r-project.org/web/packages/PLSbiplot1/index.html
+[ClusBoot](https://cran.r-project.org/web/packages/ClusBoot/index.html).
 
-ClusBoot. https://cran.r-project.org/web/packages/ClusBoot/index.html 
-
-biplotEZ, https://cran.r-project.org/web/packages/biplotEZ/index.html
+[biplotEZ](https://cran.r-project.org/web/packages/biplotEZ/index.html).
 
 
 # CONFERENCE PRESENTATIONS
