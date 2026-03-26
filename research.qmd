@@ -13,6 +13,7 @@ In July 2011 we formalised our research group into the Centre for Multi-dimensio
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -46,6 +47,7 @@ pubs |>
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -82,6 +84,7 @@ pubs |>
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -117,6 +120,7 @@ pubs |>
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -164,6 +168,7 @@ pubs |>
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)

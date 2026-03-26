@@ -50,6 +50,7 @@ Masters: Advanced Topics in Regression
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)
@@ -60,12 +61,11 @@ stds <- read_csv("PhDs.csv")
 stds |>
   mutate(Graduated = replace_na(as.character(Graduated), "")) |>
   arrange(Graduated != "", desc(Graduated), Student) |>
-  select(Student, Degree, Role, `Thesis Title`, Graduated) |>
+  select(Student, Role, `Thesis Title`, Graduated) |>
   gt() |>
     gt::cols_width(
       Student ~ px(200),
-      Degree ~ px(80),
-      Role ~ px(100),
+      Role ~ px(120),
       `Thesis Title` ~ px(200),
       Graduated ~ px(50)) |>
   cols_align("left") |>
@@ -81,6 +81,7 @@ stds |>
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 library(readr)
 library(dplyr)
 library(tidyr)
